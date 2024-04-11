@@ -23,6 +23,7 @@ h3 {
 p {
   font-size: 16px;
   line-height: 30px;
+  opacity: 70%;
 }
 
 .hero {
@@ -52,23 +53,7 @@ p {
   font-weight: normal;
   opacity: 70%;
 }
-
-.btn-branding {
-  border: 1px solid var(--secondary-color);
-  color: white;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  padding: 15px 30px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.btn-branding:hover {
-  background-color: var(--secondary-color);
-}
-
-.project-sm {
+.project-heading-sm {
   color: var(--secondary-color);
 }
 
@@ -76,6 +61,7 @@ p {
   color: white;
   border: 1px solid var(--secondary-color);
   font-size: 18px;
+  font-weight: 700;
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 4px;
