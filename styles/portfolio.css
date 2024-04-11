@@ -10,6 +10,16 @@ body {
   font-family: var(--default-font);
   line-height: 20px;
 }
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .hero {
   background-color: var(--primary-color);
   padding: 160px 40px;
@@ -25,12 +35,13 @@ body {
 .hero h1 {
   font-family: var(--heading-font);
   font-size: 96px;
+  line-height: 1.5;
 }
 
 .hero h2 {
   font-family: var(--default-font);
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
   font-weight: normal;
 }
 
@@ -46,4 +57,35 @@ cursor: pointer;
 
 .btn-branding:hover {
   background-color: var(--secondary-color);
+}
+
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  font-size: 18px;
+line-height: 27px;
+padding: 15px 30px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
