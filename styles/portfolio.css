@@ -1,29 +1,36 @@
 :root {
-  --primary-color: #F9F7FE;
-  --secondary-color: #6C63FF;
-  --heading-font: "Playfair Display", serif;
+  --primary-color: #181822;
+  --secondary-color: #6c63ff;
   --default-font: "Sen", serif;
-
+  --accent-font: "Playfair Display", serif;
 }
 
 body {
   font-family: var(--default-font);
   line-height: 20px;
+  color: white;
+  background-color: black;
 }
 
 h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 55px;
+}
+
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
 .hero {
-  background-color: var(--primary-color);
+  background-image: linear-gradient(180deg, #181823, #181823);
   padding: 160px 40px;
+  margin-bottom: 100px;
   text-align: center;
+  color: white;
 }
 .hero p {
   margin: 0;
@@ -33,59 +40,98 @@ p {
 }
 
 .hero h1 {
-  font-family: var(--heading-font);
+  font-family: var(--default-font);
   font-size: 96px;
   line-height: 1.5;
 }
 
 .hero h2 {
-  font-family: var(--default-font);
-  font-size: 24px;
+  font-family: var(--accent-font);
+  font-size: 34px;
   line-height: 1.5;
   font-weight: normal;
+  opacity: 70%;
 }
 
 .btn-branding {
-background-color: var(--secondary-color);
-color: white;
-font-size: 18px;
-line-height: 27px;
-padding: 15px 30px;
-border-radius: 4px;
-cursor: pointer;
+  border: 1px solid var(--secondary-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn-branding:hover {
   background-color: var(--secondary-color);
 }
 
-.btn-branding-outline {
+.project-sm {
   color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  font-size: 18px;
-line-height: 27px;
-padding: 15px 30px;
-border-radius: 4px;
-cursor: pointer;
 }
 
+.btn-branding-outline {
+  color: white;
+  border: 1px solid var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.github-btn {
+  margin: 100px;
+}
+
+.project-box {
+  margin-right: 20px;
+}
 .project-description {
-  padding: 120px 60px;
+  margin-top: 0;
+  padding: 40px 32px;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 960px) {
   .hero {
     padding: 80px 20px;
+    margin-bottom: 0;
   }
   .hero h1 {
-    font-size: 44px;
+    font-size: 48px;
     line-height: 2;
+    margin-bottom: 0;
+  }
+  .hero h2 {
+    font-size: 30px;
+    padding-top: 0;
   }
   h2 {
     font-size: 44px;
   }
+  h3 {
+    font-size: 34px;
+    margin-bottom: 0;
+  }
+  h4 {
+    padding-top: 20px;
+  }
   .project-description {
-    padding: 0;
+    padding: 0 0 20px 0;
     text-align: center;
+  }
+  .weather-image {
+    padding-top: 0;
+  }
+  .world-clock-img {
+    margin-top: 24px;
   }
 }
