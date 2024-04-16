@@ -55,27 +55,27 @@ p {
   opacity: 70%;
 }
 
-.about-hero-section {
-  background-color: #fff3e4;
+.hero-section {
+  background-color: #ede6fb;
   margin-top: 160px;
   color: black;
 }
 
-.about-section-content {
+.hero-content {
   padding: 60px;
 }
 
-.about-hero-section h1 {
+.hero-section h1 {
   font-size: 54px;
   line-height: 1.2;
 }
 
-.about-hero-section h2 {
+.hero-section h2 {
   font-size: 18px;
   line-height: 1.5;
 }
 
-.about-hero-section p {
+.hero-section p {
   font-size: 16px;
   list-style: 2;
 }
@@ -118,6 +118,13 @@ p {
 .tiffany-img {
   max-height: 600px;
 }
+.work-container {
+  background-color: #fff3e4;
+}
+
+.working-img {
+  max-height: 600px;
+}
 
 @media (max-width: 960px) {
   .hero {
@@ -134,10 +141,10 @@ p {
     padding-top: 0;
   }
 
-  .about-hero-section {
+  .hero-section {
     padding-bottom: 20px;
   }
-  .about-section-content {
+  .hero-content {
     text-align: center;
     padding: 20px;
   }
