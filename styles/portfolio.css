@@ -26,14 +26,14 @@ p {
   opacity: 70%;
 }
 
-.hero {
+.homepage-hero {
   background-image: linear-gradient(180deg, #181823, #181823);
   padding: 160px 40px;
   margin-bottom: 100px;
   text-align: center;
   color: white;
 }
-.hero p {
+.homepage-hero p {
   margin: 0;
   font-family: var(--default-font);
   font-size: 36px;
@@ -41,13 +41,13 @@ p {
   opacity: 100%;
 }
 
-.hero h1 {
+.homepage-hero h1 {
   font-family: var(--default-font);
   font-size: 96px;
   line-height: 1.5;
 }
 
-.hero h2 {
+.homepage-hero h2 {
   font-family: var(--accent-font);
   font-size: 34px;
   line-height: 1.5;
@@ -73,6 +73,7 @@ p {
 .hero-section h2 {
   font-size: 18px;
   line-height: 1.5;
+  font-family: var(--accent-font);
 }
 
 .hero-section p {
@@ -99,7 +100,7 @@ p {
   transition: all 200ms ease-in-out;
 }
 
-.github-btn {
+.work-btn {
   margin: 100px;
 }
 
@@ -126,29 +127,30 @@ p {
   max-height: 600px;
 }
 
+.recipe-img {
+  min-width: 382px;
+}
+
+.projects-column {
+  padding: 20px;
+}
+
+.projects-content {
+  max-width: 550px;
+  border: 2px solid white;
+  min-width: 382px;
+}
+
+.github-btn {
+  background-color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.github-btn:hover {
+  background-color: black;
+  border: 1px solid var(--secondary-color);
+}
+
 @media (max-width: 960px) {
-  .hero {
-    padding: 80px 20px;
-    margin-bottom: 0;
-  }
-  .hero h1 {
-    font-size: 48px;
-    line-height: 2;
-    margin-bottom: 0;
-  }
-  .hero h2 {
-    font-size: 30px;
-    padding-top: 0;
-  }
-
-  .hero-section {
-    padding-bottom: 20px;
-  }
-  .hero-content {
-    text-align: center;
-    padding: 20px;
-  }
-
   h2 {
     font-size: 44px;
   }
@@ -159,9 +161,39 @@ p {
   h4 {
     padding-top: 20px;
   }
+  .homepage-hero {
+    padding: 80px 20px;
+    margin-bottom: 0;
+  }
+  .homepage-hero h1 {
+    font-size: 48px;
+    line-height: 2;
+    margin-bottom: 0;
+  }
+  .homepage-hero h2 {
+    font-size: 30px;
+    padding-top: 0;
+  }
+  .hero-section {
+    padding-bottom: 20px;
+  }
+  .hero-section h1 {
+    font-size: 44px;
+  }
+  .hero-content {
+    text-align: center;
+    padding: 20px;
+  }
   .project-description {
     padding: 0 0 20px 0;
     text-align: center;
+  }
+  .projects-column {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .projects-content {
+    border: none;
   }
   .weather-image {
     padding-top: 0;
