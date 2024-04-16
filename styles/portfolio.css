@@ -150,6 +150,15 @@ p {
   border: 1px solid var(--secondary-color);
 }
 
+.contact-container {
+  margin-top: 160px;
+}
+
+.contact-links {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 960px) {
   h2 {
     font-size: 44px;
