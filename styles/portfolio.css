@@ -163,6 +163,10 @@ p {
   max-height: 70px;
 }
 
+.nav-container {
+  margin: 10px 40px;
+}
+
 .nav-item {
   padding: 20px;
 }
@@ -226,6 +230,10 @@ p {
   }
   .world-clock-img {
     margin-top: 24px;
+  }
+
+  .nav-container {
+    margin: 0;
   }
 
   .nav-item {
