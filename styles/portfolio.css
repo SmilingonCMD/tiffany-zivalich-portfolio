@@ -29,19 +29,27 @@ p {
 footer {
   margin-left: 30px;
 }
+
+footer a {
+  text-decoration: none;
+}
+
 footer li {
   list-style: none;
   padding-bottom: 30px;
 }
 
 footer li a {
-  text-decoration: none;
   color: white;
 }
 
 footer li a:hover {
   color: var(--secondary-color);
   transition: all 150ms ease-in-out;
+}
+
+span {
+  opacity: 60%;
 }
 
 .homepage-hero {
@@ -142,7 +150,7 @@ footer li a:hover {
 }
 
 .working-img {
-  max-height: 600px;
+  max-height: 500px;
 }
 
 .recipe-img {
@@ -200,7 +208,7 @@ footer li a:hover {
 
 .footer-container {
   background-color: var(--primary-color);
-  padding: 60px 60px 100px;
+  padding: 60px;
   margin-top: 100px;
 }
 
@@ -210,7 +218,7 @@ footer li a:hover {
   font-size: 20px;
   color: var(--secondary-color);
   padding: 5px 7px;
-  background-color: rgba(249, 249, 249, 0.7);
+  background-color: #ede6fb;
   border-radius: 50%;
 }
 
@@ -218,6 +226,15 @@ footer li a:hover {
   color: white;
   background-color: var(--secondary-color);
   transition: all 100ms ease-in-out;
+}
+.coded-by {
+  margin-top: 30px;
+}
+.coded-by-link {
+  color: aqua;
+}
+.open-source-link {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 960px) {
@@ -237,6 +254,9 @@ footer li a:hover {
   }
   ul {
     padding-left: 20px;
+  }
+ .coded-by {
+    margin: 0;
   }
   .homepage-hero {
     padding: 80px 20px;
