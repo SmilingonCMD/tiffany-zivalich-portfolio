@@ -48,7 +48,7 @@ footer li a:hover {
   transition: all 150ms ease-in-out;
 }
 
-span {
+ footer span {
   opacity: 60%;
 }
 
@@ -255,9 +255,6 @@ span {
   ul {
     padding-left: 20px;
   }
- .coded-by {
-    margin: 0;
-  }
   .homepage-hero {
     padding: 80px 20px;
     margin-bottom: 0;
@@ -298,11 +295,11 @@ span {
   .world-clock-img {
     margin-top: 24px;
   }
-
+  
   .nav-container {
     margin: 0;
   }
-
+  
   .nav-item {
     padding: 20px 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -323,4 +320,7 @@ span {
   .social-links {
     margin: 0 0 30px 10px;
   }
+  .coded-by {
+     margin: 0;
+   }
 }
