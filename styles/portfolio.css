@@ -259,6 +259,9 @@ footer li a:hover {
   ul {
     padding-left: 20px;
   }
+  footer li {
+    padding-bottom: 20px;
+  }
   .homepage-hero {
     padding: 80px 20px;
     margin-bottom: 0;
@@ -316,6 +319,10 @@ footer li a:hover {
   .nav-item a:hover,
   .active:hover {
     color: white !important;
+  }
+
+  .contact-container {
+    margin: 15px 0 40px;
   }
   .footer-container {
     padding: 10px 20px;
