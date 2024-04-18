@@ -162,13 +162,14 @@ footer li a:hover {
 
 .projects-content {
   max-width: 550px;
-  border: 2px solid white;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   min-width: 382px;
 }
 
 .github-btn {
   background-color: var(--secondary-color);
-  margin-bottom: 20px;
+  margin: 60px 0 0;
+  padding: 20px 70px;
 }
 .github-btn:hover {
   background-color: black;
@@ -268,7 +269,7 @@ footer li a:hover {
     padding-top: 0;
   }
   .hero-section {
-    padding-bottom: 20px;
+    padding: 0;
   }
   .hero-section h1 {
     font-size: 44px;
@@ -285,16 +286,16 @@ footer li a:hover {
     padding: 0;
     margin-bottom: 20px;
   }
-  .projects-content {
-    border: none;
-  }
+
   .weather-image {
     padding-top: 0;
   }
   .world-clock-img {
     margin-top: 24px;
   }
-  
+  .github-btn {
+    margin: 5px 0 20px;
+  }
   .nav-container {
     margin: 0;
   }
