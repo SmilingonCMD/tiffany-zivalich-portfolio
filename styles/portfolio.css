@@ -177,7 +177,11 @@ footer li a:hover {
 }
 
 .contact-container {
-  margin-top: 160px;
+  margin-top: 60px;
+}
+
+.contact-container h2 {
+  color: #AD1F79;
 }
 
 .contact-links {
@@ -208,7 +212,7 @@ footer li a:hover {
 
 .footer-container {
   background-color: var(--primary-color);
-  padding: 60px;
+  padding: 50px 60px 30px;
   margin-top: 100px;
 }
 
