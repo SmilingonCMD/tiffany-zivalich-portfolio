@@ -152,6 +152,11 @@ footer li a:hover {
 .tiffany-img {
   max-height: 600px;
 }
+
+.skills-container {
+  padding-top: 100px;
+}
+
 .work-container {
   background-color: #fff3e4;
 }
@@ -332,6 +337,14 @@ footer li a:hover {
   .active:hover {
     color: white !important;
   }
+
+  .skills-container {
+    padding: 30px;
+  }
+.skills-content {
+  text-align: center;
+  padding: 0 5px;
+}
 
   .contact-container {
     margin: 15px 0 40px;
