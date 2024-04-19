@@ -49,7 +49,7 @@ footer li a:hover {
   transition: all 150ms ease-in-out;
 }
 
- footer span {
+footer span {
   opacity: 60%;
 }
 
@@ -81,12 +81,12 @@ footer li a:hover {
 }
 
 .bg-image {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    opacity: 45%;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 45%;
 }
 
 .hero-section {
@@ -175,7 +175,9 @@ footer li a:hover {
 
 .projects-content {
   max-width: 550px;
-  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   min-width: 382px;
 }
 
@@ -194,7 +196,7 @@ footer li a:hover {
 }
 
 .contact-container h2 {
-  color: #AD1F79;
+  color: #ad1f79;
 }
 
 .contact-links {
@@ -323,7 +325,7 @@ footer li a:hover {
   .nav-container {
     margin: 0;
   }
-  
+
   .nav-item {
     padding: 20px 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -341,10 +343,10 @@ footer li a:hover {
   .skills-container {
     padding: 30px;
   }
-.skills-content {
-  text-align: center;
-  padding: 0 5px;
-}
+  .skills-content {
+    text-align: center;
+    padding: 0 5px;
+  }
 
   .contact-container {
     margin: 15px 0 40px;
@@ -357,6 +359,6 @@ footer li a:hover {
     margin: 0 0 30px 10px;
   }
   .coded-by {
-     margin: 0;
-   }
+    margin: 0;
+  }
 }
