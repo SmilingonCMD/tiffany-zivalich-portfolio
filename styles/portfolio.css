@@ -53,22 +53,50 @@ footer span {
   opacity: 60%;
 }
 
+.nav-container {
+  margin: 10px 40px;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+.nav-item a:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+}
+
+.bg-image {
+  max-height: 500px;
+  object-fit: cover;
+  opacity: 45%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
 .homepage-hero {
   padding: 100px 40px;
   margin-bottom: 80px;
   text-align: center;
-  color: white;
 }
+
 .homepage-hero p {
-  margin: 0;
-  font-family: var(--default-font);
   font-size: 36px;
   font-weight: bold;
+  margin: 0;
   opacity: 100%;
 }
 
 .homepage-hero h1 {
-  font-family: var(--default-font);
   font-size: 96px;
   line-height: 1.5;
 }
@@ -76,21 +104,43 @@ footer span {
 .homepage-hero h2 {
   font-family: var(--accent-font);
   font-size: 34px;
-  line-height: 1.5;
   font-weight: normal;
+  line-height: 1.5;
 }
 
-.bg-image {
-  width: 100%;
-  max-height: 500px;
-  object-fit: cover;
-  position: absolute;
-  z-index: -1;
-  opacity: 45%;
+.heading-small {
+  color: var(--secondary-color);
+}
+
+.project-description {
+  padding: 40px 32px;
+  background-color: var(--primary-color);
+}
+
+.btn-branding {
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-outline {
+  border: 1px solid var(--secondary-color);
+
+}
+
+.btn-outline:hover {
+  background-color: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.work-btn {
+  margin: 100px;
 }
 
 .hero-section {
-  background-color: #f1d8fa;
   color: black;
 }
 
@@ -110,45 +160,26 @@ footer span {
   font-family: var(--accent-font);
 }
 
-.hero-section p {
-  font-size: 16px;
-  list-style: 2;
+.about-hero {
+  background-color: #f1d8fa;
 }
 
-
-.heading-small {
-  color: var(--secondary-color);
-}
-
-.btn-branding-outline {
-  color: white;
-  border: 1px solid var(--secondary-color);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  padding: 15px 30px;
-  border-radius: 4px;
-}
-
-.btn-branding-outline:hover {
+.btn-solid {
   background-color: var(--secondary-color);
+}
+
+.btn-solid:hover {
+  background-color: none;
+  border: 1px solid var(--secondary-color);
+  color: black;
   transition: all 200ms ease-in-out;
 }
 
-.work-btn {
-  margin: 100px;
-}
-
-.project-box {
-  margin-right: 20px;
-}
-.project-description {
-  margin-top: 0;
-  padding: 40px 32px;
-  background-color: var(--primary-color);
-}
-.projects-btn {
-  color: black;
+.tree-img,
+.heart-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .skills-container {
@@ -159,30 +190,19 @@ footer span {
   background-color: #fff3e4;
 }
 
-.tree-img,
-.heart-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.heart-img {
-  transform: scaleX(-1);
-}
-
-.recipe-img {
-  min-width: 382px;
-}
-
 .projects-column {
   padding: 20px;
 }
 
 .projects-content {
-  max-width: 550px;
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+  rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  max-width: 550px;
+  min-width: 382px;
+}
+
+.recipe-img {
   min-width: 382px;
 }
 
@@ -191,9 +211,11 @@ footer span {
   margin: 60px 0 0;
   padding: 20px 70px;
 }
+
 .github-btn:hover {
-  background-color: black;
+  background-color: none;
   border: 1px solid var(--secondary-color);
+  transition: all 200ms ease-in-out;
 }
 
 .contact-container {
@@ -205,29 +227,8 @@ footer span {
 }
 
 .contact-links {
-  text-decoration: none;
   color: white;
-}
-
-.logo {
-  max-height: 80px;
-}
-
-.nav-container {
-  margin: 10px 40px;
-}
-
-.nav-item {
-  padding: 20px;
-}
-.nav-item a:hover {
-  color: var(--secondary-color);
-  transition: all 100ms ease-in-out;
-}
-
-.active {
-  color: var(--secondary-color) !important;
-  font-weight: bold;
+  text-decoration: none;
 }
 
 .footer-container {
@@ -237,136 +238,160 @@ footer span {
 }
 
 .social-links a {
-  text-decoration: none;
-  margin: 15px 10px 0 7px;
-  font-size: 20px;
-  color: var(--secondary-color);
-  padding: 5px 7px;
   background-color: #ede6fb;
   border-radius: 50%;
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin: 15px 10px 0 7px;
+  padding: 5px 7px;
+  text-decoration: none;
 }
 
 .social-links a:hover {
-  color: white;
   background-color: var(--secondary-color);
+  color: white;
   transition: all 100ms ease-in-out;
 }
+
 .coded-by {
   margin-top: 30px;
 }
+
 .coded-by-link {
   color: aqua;
 }
+
 .open-source-link {
   color: var(--secondary-color);
 }
 
 @media (max-width: 991.98px) {
-  h2 {
-    font-size: 44px;
-  }
-  h3 {
-    font-size: 34px;
-    margin-bottom: 0;
-  }
-  h4 {
-    padding-top: 20px;
-  }
-  footer {
-    margin: 0;
-    padding: 10px;
-  }
-  ul {
-    padding-left: 20px;
-  }
-  footer li {
-    padding-bottom: 20px;
-  }
-  .homepage-hero {
-    padding: 40px 20px 0;
-    margin-bottom: 0;
-  }
-  .homepage-hero h1 {
-    font-size: 48px;
-    line-height: 2;
-    margin-bottom: 0;
-  }
-  .homepage-hero h2 {
-    font-size: 30px;
-    padding-top: 0;
-    margin: 0;
-  }
-  .heading-small {
-    margin: 0;
-  }
-  .hero-section {
-    padding: 0;
-  }
+  h2,
   .hero-section h1 {
     font-size: 44px;
   }
-  .hero-content {
-    text-align: center;
-    padding: 20px;
-    max-width: 100%;
-  }
-  .project-description {
-    padding: 0 0 20px 0;
-    text-align: center;
-  }
-  .projects-column {
-    padding: 0;
-    margin-bottom: 20px;
+
+  h3 {
+    font-size: 34px;
   }
 
-  .weather-image {
-    padding-top: 0;
+  h3,
+  .homepage-hero,
+  .homepage-hero h1 {
+    margin-bottom: 0;
   }
-  .world-clock-img {
-    margin-top: 24px;
+
+  h4 {
+    padding-top: 20px;
   }
-  .github-btn {
-    margin: 5px 0 20px;
+
+  footer {
+    padding: 10px;
   }
-  .nav-container {
+
+  footer,
+  .homepage-hero h2,
+  .heading-small,
+  .nav-container,
+  .coded-by {
     margin: 0;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  footer li {
+    padding-bottom: 20px;
   }
 
   .nav-item {
     padding: 20px 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
+
   .nav-item:hover {
     background-color: #6c63ff;
     transition: all 200ms ease-in-out;
   }
+
   .nav-item a,
   .nav-item a:hover,
   .active:hover {
     color: white !important;
   }
 
+  .homepage-hero {
+    padding: 40px 20px 0;
+  }
+
+  .homepage-hero h1 {
+    font-size: 48px;
+    line-height: 2;
+  }
+
+  .homepage-hero h2 {
+    font-size: 30px;
+  }
+
+  .homepage-hero h2,
+  .weather-img {
+    padding-top: 0;
+  }
+
+  .hero-section,
+  .projects-column {
+    padding: 0;
+  }
+
+ .hero-content,
+ .project-description,
+ .skills-content {
+   text-align: center;
+ }
+
+  .hero-content {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .project-description {
+    padding: 0 0 20px 0;
+  }
+
+  .projects-column {
+    margin-bottom: 20px;
+  }
+
+  .world-clock-img {
+    margin-top: 24px;
+  }
+
+  .github-btn {
+    margin: 5px 0 20px;
+  }
+  
   .skills-container {
     padding: 30px;
   }
+
   .skills-content {
-    text-align: center;
     padding: 0 5px;
   }
 
   .contact-container {
     margin: 15px 0 40px;
   }
+  
   .footer-container {
     padding: 10px 20px;
     margin-top: 0;
   }
+  
   .social-links {
     margin: 0 0 30px 10px;
   }
-  .coded-by {
-    margin: 0;
-  }
+ 
 }
 @media (max-width: 1024px) {
   .about-content {
