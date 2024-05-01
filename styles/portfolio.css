@@ -128,7 +128,6 @@ footer span {
 
 .btn-outline {
   border: 1px solid var(--secondary-color);
-
 }
 
 .btn-outline:hover {
@@ -196,8 +195,8 @@ footer span {
 
 .projects-content {
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-  rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-  rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   max-width: 550px;
   min-width: 382px;
 }
@@ -344,11 +343,11 @@ footer span {
     padding: 0;
   }
 
- .hero-content,
- .project-description,
- .skills-content {
-   text-align: center;
- }
+  .hero-content,
+  .project-description,
+  .skills-content {
+    text-align: center;
+  }
 
   .hero-content {
     padding: 20px;
@@ -370,7 +369,7 @@ footer span {
   .github-btn {
     margin: 5px 0 20px;
   }
-  
+
   .skills-container {
     padding: 30px;
   }
@@ -382,16 +381,15 @@ footer span {
   .contact-container {
     margin: 15px 0 40px;
   }
-  
+
   .footer-container {
     padding: 10px 20px;
     margin-top: 0;
   }
-  
+
   .social-links {
     margin: 0 0 30px 10px;
   }
- 
 }
 @media (max-width: 1024px) {
   .about-content {
