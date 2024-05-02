@@ -151,6 +151,7 @@ footer span {
 .hero-section h1 {
   font-size: 54px;
   line-height: 1.2;
+  min-width: 305px;
 }
 
 .hero-section h2 {
@@ -161,6 +162,7 @@ footer span {
 
 .about-hero {
   background-color: #f1d8fa;
+  padding: 0;
 }
 
 .btn-solid {
@@ -187,6 +189,7 @@ footer span {
 
 .work-container {
   background-color: #fff3e4;
+  padding: 0;
 }
 
 .projects-column {
