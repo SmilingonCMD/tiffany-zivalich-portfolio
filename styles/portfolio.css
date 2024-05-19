@@ -204,10 +204,6 @@ footer span {
   min-width: 382px;
 }
 
-.recipe-img {
-  min-width: 382px;
-}
-
 .github-btn {
   background-color: var(--secondary-color);
   margin: 60px 0 0;
